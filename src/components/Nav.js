@@ -30,7 +30,7 @@ class NavBar extends Component {
           {this.props.children}
         <footer className="navbar fixed-bottom" style={{backgroundColor: "#C1C2C7"}}>
             <div className="navbar-nav">
-              <p className="navbar-text" style={{margin:"auto"}}> 2015 Hurricane Start. The first stop in Hurricane prep products.</p>
+              <p className="navbar-text" style={{margin:"auto"}}> © 2015 Hurricane Start. The first stop in Hurricane prep products.</p>
             </div>
         </footer>
       </div>

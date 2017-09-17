@@ -6,6 +6,8 @@ import consumptionInfo from './consumptionInfo';
 import Consumptions from './Consumptions';
 import SuppliesInfo from './SuppliesInfo';
 import Supplies from './Supplies';
+import ServiceInfo from './ServiceInfo'
+import Services from './Services';
 import About from './About';
 import Contact from './Contact';
 import Home from './Home';
@@ -20,6 +22,8 @@ class App extends Component {
             <Route path="/consumptions" component={Consumptions}/>
             <Route path="/supplies/:ordernum" component={SuppliesInfo}/>
             <Route path="/supplies" component={Supplies}/>
+            <Route path="/services/:ordernum" component={ServiceInfo}/>
+            <Route path="/services" component={Services}/>
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route exact path="/" component={Home} />

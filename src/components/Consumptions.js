@@ -26,7 +26,7 @@ class Consumptions extends Component {
       )
     });
     return (
-      <div className="card-deck-wrapper" style={{marginLeft: 25, marginRight: 25 , marginTop: 70, marginBottom: 100}}>
+      <div className="card-deck-wrapper" style={{ marginTop: 70, marginBottom: 100}}>
         <div className="card-deck">
             {navConsumptions}
         </div>
