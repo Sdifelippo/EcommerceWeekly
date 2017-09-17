@@ -11,7 +11,7 @@ class Consumptions extends Component {
       return(
         <div key={consumptions.id} className="col-sm-4">
           <div className="card" style={{marginTop: 20}}>
-            <img className="card-image-top" src={consumptions.image} alt={consumptions.imageAlt} style={{width:"150px", margin:"auto"}} />
+            <img className="card-image-top" src={consumptions.image} style={{width:"150px", margin:"auto"}} />
 
             <div className="card-block">
               <h4 className="card-title">{consumptions.name}</h4>

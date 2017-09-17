@@ -18,7 +18,7 @@ class NavBar extends Component {
           <div className="collapse navbar-collapse">
             <div className="navbar-nav">
               <NavLink activeClassName="selected" className="nav-item nav-link" to="/consumptions">Consumption</NavLink>
-              <NavLink activeClassName="selected" className="nav-item nav-link" to="/tools">Supplies</NavLink>
+              <NavLink activeClassName="selected" className="nav-item nav-link" to="/supplies">Supplies</NavLink>
               <NavLink activeClassName="selected" className="nav-item nav-link" to="/services">Services</NavLink>
             </div>
             <div className="navbar-nav">
